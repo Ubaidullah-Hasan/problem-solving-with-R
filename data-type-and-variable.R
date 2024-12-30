@@ -1,0 +1,20 @@
+# 1) Create a variable a and assign it the value 25. What is the data type of a? 
+a <- 25
+class(a)
+
+# 2) Assign the string "Learning R" to a variable b. Print the value of b.
+b <- "Learning R"
+print(b)
+
+
+# 3) Convert the value 12.8 to an integer and assign it to c. What is the type of c?
+c <- as.integer(12.8)
+class(c)
+
+# 4) Create a variable d with a logical value that checks if 10 is greater than 5.
+d <- 10 > 5
+print(d)
+
+# 5) Assign the complex number 4 + 5i to a variable e and display its value.
+e <- 4 + 5i
+print(e)
