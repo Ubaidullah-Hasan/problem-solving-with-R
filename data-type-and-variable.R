@@ -37,10 +37,12 @@ for(variable in 1:10){
   paste("Sum of first", num-1, "natural numbers is:",sum)
 }
 
+# 8) Create a function in R that takes a number as input and returns the square of that number.
+square_num <- function(num){
+  return(num * num)
+}
 
-
-
-
+square_num(10)
 
 
 
