@@ -18,3 +18,31 @@ print(d)
 # 5) Assign the complex number 4 + 5i to a variable e and display its value.
 e <- 4 + 5i
 print(e)
+
+# 6) Write an R program to print all numbers from 1 to 10 using a for loop.
+for(variable in 1:10){
+  print(variable);
+}
+
+# 7) Write an R program to calculate the sum of the first 10 natural numbers using a while loop.
+{
+  num <- 1;
+  sum <- 0;
+
+  while(num <= 10){
+    sum <- sum + num
+    num <- num+1
+  }
+
+  paste("Sum of first", num-1, "natural numbers is:",sum)
+}
+
+
+
+
+
+
+
+
+
+
