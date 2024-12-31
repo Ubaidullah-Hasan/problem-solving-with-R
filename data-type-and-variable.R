@@ -44,7 +44,20 @@ square_num <- function(num){
 
 square_num(10)
 
+# 9) Write an R program to concatenate two strings "Hello" and "World" with a space between them.
+paste("Hello", "World");
 
+# 10) Write an R program to check if a given number is even or odd using a function.
+evenOrOdd <- function(num){
+  if(num%%2 == 0){
+    paste("The number", num,"is even.")
+  }else{
+    paste("The number", num,"is odd.")
+  }
+}
 
-
-
+evenOrOdd(4)
+  
+  
+  
+  
