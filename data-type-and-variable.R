@@ -57,7 +57,85 @@ evenOrOdd <- function(num){
 }
 
 evenOrOdd(4)
+
+# 11) Write an R program to find the factorial of a number using a for loop.
+{
+  resultOfMultiplication <- 1
+  for(x in 1:5){
+    resultOfMultiplication <- resultOfMultiplication * x
+  }
   
+  paste("The factorial of 5 is:", resultOfMultiplication)
+}
+
+
+# 12) Write a function in R that takes two numbers as inputs and returns their greatest common divisor (GCD).
+
+
+# 13) Write an R program to reverse a given string using a loop.
+reverse_string <- function(word){
+  str_len <- nchar(word)
+  reverse_result =''
+  
+  while (str_len >= 1 ){
+    new_word <- substr(word, str_len, str_len)
+    reverse_result <- paste0(reverse_result, new_word)
+    str_len <- str_len - 1
+  }
+  return(reverse_result)
+}
+
+output <- reverse_string("gnimmargorP R")
+print(output)
+
+# 14) Write an R program to calculate the sum of squares of the first 5 numbers using a for loop.
+sum <- 0
+for(num in 1:5){
+  sum <- (num*num) + sum
+}
+print(sum)
+
+# 15) Write a function in R to check if a string is a palindrome (reads the same forward and backward).
+check_palindrome <- function(string){
+  str_len <- nchar(string)
+  reverse_string <- ""
+  
+  for(n in str_len:1){
+    reverse_string <- paste0(reverse_string, substr(string, n, n))
+  }
+  print(reverse_string)
+  print(string)
+  if(reverse_string == string){
+    return(paste("The string", string, "is a palindrome."))
+  }else{
+    return("Not palindrome")
+  }
+}
+
+result <- check_palindrome("aba")
+result
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
