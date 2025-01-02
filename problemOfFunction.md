@@ -43,7 +43,7 @@ Write a function that takes two numbers as arguments, calculates the remainder w
 The remainder is: 4
 
 ### 6. Print into the function
-Write a function to print the "I want to a BCS Cader"
+Write a function to print the "I want to be a BCS Cader"
 
 ### 7. Make a nested function each function give one parameter at first parent function Summation the parameter with the 2 and than child function Multiplication the result with the 0, and than print the result
 
